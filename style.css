@@ -1,0 +1,106 @@
+.nav-link.active{
+    color: red !important;
+}
+
+
+#navbar {
+    background-color: #333;
+    color: white;
+}
+
+.navbar-toggler {
+    border: solid 1px white;
+    color: white;
+    background-color: #333;
+}
+
+#img-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #444;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+h3, h4, h5, h6 {
+    margin-bottom: 10px;
+}
+
+#navbar .navbar-brand {
+    color: #fff;
+}
+
+#navbar .navbar-nav .nav-link {
+    color: #fff;
+}
+
+#navbar .navbar-nav .nav-link:hover {
+    color: #ccc;
+}
+
+#navbar .navbar-nav .nav-link.active {
+    color: #ff9900;
+    font-weight: bold;
+}
+
+.img-fluid {
+    height: 350px;
+    width: auto;
+}
+
+
+#bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; 
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+#bio > div {
+    flex: 1; 
+}
+
+#bio p {
+    word-wrap: break-word;
+}
+
+#footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 200px;
+}
+
+#site-map {
+    padding-right: 10px;
+}
+
+#site-list {
+    padding-right: 10px;
+}
+
+#site-list li a:hover, #social-list li a:hover {
+    color: red !important;
+}
+
+
+#social-list {
+    padding-left: 10px;
+}
+

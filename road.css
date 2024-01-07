@@ -1,0 +1,126 @@
+.nav-link.active{
+    color: red !important;
+}
+
+
+#navbar {
+    background-color: #333;
+    color: white;
+}
+
+.navbar-toggler {
+    border: solid 1px white;
+    color: white;
+    background-color: #333;
+}
+
+#img-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+
+h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 36px;
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+
+#navbar .navbar-brand {
+    color: #fff;
+}
+
+#navbar .navbar-nav .nav-link {
+    color: #fff;
+}
+
+#navbar .navbar-nav .nav-link:hover {
+    color: #ccc;
+}
+
+#navbar .navbar-nav .nav-link.active {
+    color: #ff9900;
+    font-weight: bold;
+}
+
+
+#road {
+    background-color: black;
+    color: white;
+}
+
+#info p {
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    text-align: left;
+}
+
+#info h3 {
+    color: #0099FF;
+}
+
+#info ol, #info ul {
+    padding-left: 20px;
+}
+
+#info li {
+    margin-bottom: 0px;
+    text-align: left; 
+}
+
+#info p:last-child {
+    margin-top: 2px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #cccccc;
+}
+
+@media (max-width: 768px) {
+    #info {
+        padding: 20px;
+    }
+}
+#footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #333;
+    color: white;
+}
+
+#site-map {
+    padding-right: 10px;
+}
+
+#site-list {
+    padding-right: 10px;
+}
+
+#site-list li a:hover, #social-list li a:hover {
+    color: red !important;
+}
+
+
+#social-list {
+    padding-left: 10px;
+}
